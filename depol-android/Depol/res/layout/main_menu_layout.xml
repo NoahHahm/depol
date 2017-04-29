@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/menu_background_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.tacademy.depol.widget.MyRoundedImageView
+            android:id="@+id/profile_picture_view"
+            android:layout_width="117dp"
+            android:layout_height="117dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="51dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/profile_empty" />
+
+        <TextView
+            android:id="@+id/menu_jobView"
+            android:layout_width="237dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/menu_nameView"
+            android:layout_below="@+id/menu_nameView"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="UI/UX designer"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white_color"
+            android:textSize="14sp" />
+
+        <FrameLayout
+            android:id="@+id/frameLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/menu_jobView"
+            android:layout_marginTop="51dp" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btn_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="65dp"
+                    android:text="@string/app_name"
+                    android:textColor="@color/white_color" />
+
+                <ImageView
+                    android:id="@+id/iv_gare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="23dp"
+                    android:src="@drawable/m_home" />
+
+            </RelativeLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/frameLayout1"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btn_recruitinfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="65dp"
+                    android:text="@string/recruitinfo"
+                    android:textColor="@color/white_color" />
+
+                <ImageView
+                    android:id="@+id/iv_gare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="24dp"
+                    android:src="@drawable/m_board" />
+
+                <ImageButton
+                    android:id="@+id/btn_bookmark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="19dp"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/menu_bookmark" />
+
+            </RelativeLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/frameLayout2" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btn_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="65dp"
+                    android:text="@string/message"
+                    android:textColor="@color/white_color" />
+
+                <ImageView
+                    android:id="@+id/my_like"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="24dp"
+                    android:src="@drawable/m_msg" />
+
+                <ImageView
+                    android:id="@+id/ategory_cell_imageView"
+                    android:layout_width="324dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="23dp"
+                    android:background="@drawable/menu_div" />
+
+                <TextView
+                    android:id="@+id/menu_message_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/my_like"
+                    android:layout_marginLeft="65dp"
+                    android:layout_toRightOf="@+id/my_like"
+                    android:text="1"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/RED" />
+
+            </RelativeLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/frameLayout3" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btn_like"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="65dp"
+                    android:text="@string/like"
+                    android:textColor="@color/white_color" />
+
+                <ImageView
+                    android:id="@+id/iv_gare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="24dp"
+                    android:src="@drawable/m_like" />
+
+                <ImageView
+                    android:id="@+id/btn_message_follow"
+                    android:layout_width="324dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="23dp"
+                    android:background="@drawable/menu_div" />
+
+                <TextView
+                    android:id="@+id/menu_like_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/iv_gare"
+                    android:layout_marginLeft="65dp"
+                    android:layout_toRightOf="@+id/iv_gare"
+                    android:text="1"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/RED" />
+
+            </RelativeLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/frameLayout4" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btn_invitation"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="65dp"
+                    android:text="@string/invitation"
+                    android:textColor="@color/white_color" />
+
+                <ImageView
+                    android:id="@+id/iv_gare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="24dp"
+                    android:src="@drawable/m_invite" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="324dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="23dp"
+                    android:background="@drawable/menu_div" />
+
+            </RelativeLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/frameLayout5" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btn_settings"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="65dp"
+                    android:text="@string/settings"
+                    android:textColor="@color/white_color" />
+
+                <ImageView
+                    android:id="@+id/iv_gare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="24dp"
+                    android:src="@drawable/m_setting" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="324dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="23dp"
+                    android:background="@drawable/menu_div" />
+
+            </RelativeLayout>
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/menu_nameView"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profile_picture_view"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="Roda J"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white_color"
+            android:textSize="24sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

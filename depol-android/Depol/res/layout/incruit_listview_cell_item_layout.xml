@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginBottom="@dimen/padding_bottom"
+        android:layout_marginLeft="@dimen/padding_left"
+        android:layout_marginRight="@dimen/padding_right"
+        android:layout_marginTop="@dimen/padding_top"
+        android:background="@color/profile_background_color"
+        android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/menu_like_userImageView"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/abs__list_longpressed_holo" />
+
+    <TextView
+        android:id="@+id/forgot_passView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/menu_like_userImageView"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/menu_like_userImageView"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/white_color" />
+
+    <TextView
+        android:id="@+id/message_desc_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/forgot_passView"
+        android:layout_below="@+id/forgot_passView"
+        android:layout_marginTop="15dp"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white_color" />
+
+    <TextView
+        android:id="@+id/p1_addView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/message_desc_textview"
+        android:layout_below="@+id/message_desc_textview"
+        android:layout_marginTop="5dp"
+        android:text="@string/basic_job"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/white_color" />
+
+</RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background_color"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_facebook_invite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btn_kakaolink"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/invite_facebook"
+        android:textColor="@color/white_color"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_kakaolink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/acc_name"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/invite_kakao"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/acc_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/my_like"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="@string/invitation_desc"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white_color"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/my_like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="82dp"
+        android:layout_marginTop="64dp"
+        android:src="@drawable/invite_depol_195x43dp" />
+
+</RelativeLayout>

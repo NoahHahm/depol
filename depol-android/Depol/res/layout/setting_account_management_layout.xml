@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background_color" >
+
+    <com.tacademy.depol.widget.MyRoundedImageView
+        android:id="@+id/mess_profile_picture_view"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="21dp"
+        android:src="@drawable/com_facebook_profile_default_icon" />
+
+    <TextView
+        android:id="@+id/menu_like_timeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/acc_name"
+        android:layout_below="@+id/acc_name"
+        android:layout_marginTop="8dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/white_color" />
+
+    <TextView
+        android:id="@+id/acc_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="34dp"
+        android:layout_toRightOf="@+id/mess_profile_picture_view"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white_color" />
+
+    <Button
+        android:id="@+id/btn_account_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btn_account_email"
+        android:background="@drawable/account_edit_bar_2"
+        android:gravity="left"
+        android:text="@string/account_pass"
+        android:textColor="@color/white_color"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/dialog_startview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/menu_like_timeView"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/account_info"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/white_color" />
+
+    <Button
+        android:id="@+id/btn_account_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/dialog_startview"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/account_edit_bar_2"
+        android:gravity="left"
+        android:text="@string/account_email"
+        android:textColor="@color/white_color"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/oldView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btn_account_pass"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/account_other_account"
+        android:visibility="gone"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/white_color" />
+
+    <com.facebook.widget.LoginButton
+        xmlns:fb="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/btn_version"
+        style="@style/FacebookLoginAccButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/oldView"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"
+        android:textColor="@color/white_color"
+        fb:login_text="@string/account_facebook"
+        fb:logout_text="@string/account_facebook_acceept" />
+
+</RelativeLayout>

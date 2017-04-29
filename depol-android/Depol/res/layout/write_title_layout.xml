@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background_color" >
+
+    <ScrollView
+        android:id="@+id/g_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_gravity="left"
+                android:layout_margin="0dp"
+                android:background="@color/BLACK" >
+
+                <com.tacademy.depol.write.DynimicFileAdapterView
+                    android:id="@+id/dynimicFileAdapterView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="16dp"
+                    android:background="@color/BLACK"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp" />
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/padding_right"
+                android:paddingTop="@dimen/activity_horizontal_margin" >
+
+                <EditText
+                    android:id="@+id/write_title_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:hint="@string/write_title"
+                    android:maxLength="10"
+                    android:textColor="@color/white_color"
+                    android:textColorHint="@color/C_4E4E4E" >
+
+                    <requestFocus />
+                </EditText>
+
+                <EditText
+                    android:id="@+id/write_desc_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:hint="@string/write_desc"
+                    android:inputType="textMultiLine"
+                    android:textColor="@color/white_color"
+                    android:textColorHint="@color/C_4E4E4E" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/write_btn_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/btn_category_selector"
+        android:background="@android:color/transparent"
+        android:text="Button" />
+
+    <FrameLayout
+        android:id="@+id/write_content"
+        android:layout_width="match_parent"
+        android:layout_height="401dp" >
+    </FrameLayout>
+
+</RelativeLayout>

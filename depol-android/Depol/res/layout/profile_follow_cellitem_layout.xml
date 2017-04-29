@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="10dp" >
+    
+    <com.tacademy.depol.widget.UserRoundedImageView
+        android:id="@+id/follow_imageView"
+        android:layout_width="59dp"
+        android:layout_height="59dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/com_facebook_profile_default_icon" />
+
+    <TextView
+        android:id="@+id/follow_job"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/follow_name"
+        android:layout_below="@+id/follow_name"
+        android:layout_marginTop="8dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/C_4A647E"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/my_like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="17dp"
+        android:src="@drawable/follow_uncheck" />
+
+    <TextView
+        android:id="@+id/follow_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/follow_imageView"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white_color"
+        android:textSize="18sp" />
+
+</RelativeLayout>

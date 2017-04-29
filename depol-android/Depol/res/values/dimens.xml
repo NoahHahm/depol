@@ -1,0 +1,47 @@
+<!--
+  Copyright 2011 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<resources>
+
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="padding_right">10dp</dimen>
+    <dimen name="padding_left">10dp</dimen>
+    <dimen name="padding_top">10dp</dimen>
+    <dimen name="padding_bottom">10dp</dimen>
+    <dimen name="padding_left_edittext">20dp</dimen>
+    <integer name="num_cols">1</integer>
+    <dimen name="photo_margin_right">16dp</dimen>
+    <dimen name="photo_width">108dp</dimen>
+    <dimen name="photo_height">108dp</dimen>
+    
+    <!-- 회원가입 패딩 -->
+    <dimen name="sign_padding_left">50dp</dimen>
+    <dimen name="sign_padding_right">50dp</dimen>
+    <dimen name="sign_padding_top">50dp</dimen>
+    
+    <!-- 개인정보 패딩 -->
+    <dimen name="info_title_size">30dp</dimen>
+    <dimen name="info_sub_size">20dp</dimen>
+    
+    
+    <dimen name="small_text">15dp</dimen>
+    
+    <!-- 개인정보 다이얼로그 텍스트 -->
+    <dimen name="info_dialog_text_size">18dp</dimen>
+
+</resources>

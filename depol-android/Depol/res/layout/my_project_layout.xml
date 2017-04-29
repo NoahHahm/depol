@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <com.staggeredgridview.widght.STGVImageView
+        android:id="@+id/img_my_project"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ddd"
+        android:scaleType="centerCrop" />
+    
+    <ImageView
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_alignBottom="@+id/img_my_project"
+        android:background="@drawable/project_bar" >
+        
+    </ImageView>
+
+    <TextView
+        android:id="@+id/menu_like_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/img_my_project"
+        android:layout_marginBottom="9dp"
+        android:layout_marginLeft="7dp"
+        android:maxLength="10"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white_color"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/my_like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/oldView"
+        android:src="@drawable/profile_like_1" />
+
+    <ImageView
+        android:id="@+id/btn_message_follow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/newView"
+        android:src="@drawable/profile_comm1" />
+
+    <TextView
+        android:id="@+id/newView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/menu_like_desc"
+        android:layout_toLeftOf="@+id/my_like"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/C_C6C6C6"
+        android:textSize="8sp" />
+
+    <TextView
+        android:id="@+id/oldView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/newView"
+        android:layout_alignBottom="@+id/newView"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/C_C6C6C6"
+        android:textSize="8sp" />
+
+</RelativeLayout>

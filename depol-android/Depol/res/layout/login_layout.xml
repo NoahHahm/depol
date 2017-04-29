@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viwer_contnt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/menu_background_color" >
+
+    <RelativeLayout
+        android:id="@+id/selectView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <!-- ㅁㄴㅇㅁㄴㅇ -->
+
+        <Button
+            android:id="@+id/btn_comment_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/comment_userName"
+            android:layout_marginLeft="64dp"
+            android:layout_marginTop="96dp"
+            android:text="Button" />
+        
+          <com.facebook.widget.LoginButton
+              xmlns:fb="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/btn_facebook"
+              style="@style/FacebookLoginButton"
+              android:textSize="16sp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentLeft="true"
+              android:layout_below="@+id/comment_userName"
+              android:layout_marginLeft="64dp"
+              android:layout_marginTop="96dp"
+              android:gravity="top|center_horizontal"
+              android:paddingLeft="20dp"
+              android:paddingTop="10dp"
+              android:textColor="@color/white_color"
+              fb:login_text=""
+              fb:logout_text="" />
+
+        <ImageButton
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btn_facebook"
+            android:layout_below="@+id/btn_facebook"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/depol" />
+
+        <ImageButton
+            android:id="@+id/btn_regedit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btn_login"
+            android:layout_below="@+id/btn_login"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/account" />
+
+        <ImageView
+            android:id="@+id/my_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="83dp"
+            android:layout_marginTop="149dp"
+            android:src="@drawable/invite_depol_195x43dp" />
+
+        <TextView
+            android:id="@+id/comment_userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/my_like"
+            android:layout_marginRight="120dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/main_subText"
+            android:textColor="@color/white_color"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+</FrameLayout>

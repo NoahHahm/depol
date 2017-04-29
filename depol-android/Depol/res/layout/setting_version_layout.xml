@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background_color"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/versionOldView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@+id/oldView"
+        android:text="v1.2"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white_color"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/versionNewView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/versionOldView"
+        android:layout_below="@+id/versionOldView"
+        android:layout_marginTop="24dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/actionbar_background_color"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/oldView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/versionNewView"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="80dp"
+        android:text="@string/version_current"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white_color" />
+
+    <TextView
+        android:id="@+id/newView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/versionNewView"
+        android:layout_alignLeft="@+id/oldView"
+        android:text="@string/version_new"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white_color" />
+
+    <TextView
+        android:id="@+id/academy_endDateView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:text="@string/version_desc"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/white_color"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_version_update"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/newView"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/btn_rectangle_update"
+        android:text="@string/version_update"
+        android:textColor="@color/white_color"
+        android:textSize="16sp" />
+
+</RelativeLayout>

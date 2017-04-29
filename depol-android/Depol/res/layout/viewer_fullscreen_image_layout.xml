@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viwer_contnt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/notice_separator_color"
+    android:windowSoftInputMode="adjustPan" >
+
+    <com.tacademy.depol.HackyViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pager_fullimage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/gallery_sub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="188dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_above="@+id/write_content" >
+
+                <ImageView
+                    android:id="@+id/btn_message_follow"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/det_bar" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <com.tacademy.depol.widget.UserRoundedImageView
+                        android:id="@+id/picture_userview"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="26dp"
+                        android:layout_marginTop="24dp"
+                        android:visibility="gone"
+                        android:src="@drawable/com_facebook_profile_default_icon" />
+
+                    <TextView
+                        android:id="@+id/g_nameView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/picture_userview"
+                        android:layout_alignRight="@+id/picture_userview"
+                        android:layout_below="@+id/picture_userview"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/white_color" />
+
+                    <ScrollView
+                        android:id="@+id/g_desc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/g_tv_title"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/g_tv_title"
+                        android:layout_marginRight="28dp" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/g_tv_desc"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="12sp"
+                                android:textColor="@color/white_color" />
+                        </LinearLayout>
+                    </ScrollView>
+
+                    <TextView
+                        android:id="@+id/g_tv_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginTop="16dp"
+                        android:textSize="18sp"
+                        android:layout_toRightOf="@+id/picture_userview"
+                        android:textColor="@color/white_color" />
+
+                </RelativeLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/write_content"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/my_like"
+                        android:background="@drawable/det_bar2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <ImageButton
+                        android:id="@+id/btn_share"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/v_share" />
+
+                    <ImageButton
+                        android:id="@+id/btn_like"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toLeftOf="@+id/like_count"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/btn_like_selector" />
+
+                    <ImageButton
+                        android:id="@+id/btn_comment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toLeftOf="@+id/replay_count"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/v_reply" />
+
+                    <TextView
+                        android:id="@+id/replay_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/like_count"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/btn_like"
+                        android:textColor="@color/white_color"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/like_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/white_color"
+                        android:layout_marginRight="12dp"
+                        android:textSize="12sp" />
+
+                </RelativeLayout>
+
+            </FrameLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_edit_job"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <Button
+                        android:id="@+id/btn_edit"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:background="@android:color/transparent"
+                        android:text="Edit"
+                        android:textColor="@color/white_color"
+                        android:visibility="gone" />
+
+                    <ImageButton
+                        android:id="@+id/g_btn_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="9dp"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/btn_back" />
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/det_bar" />
+
+            </FrameLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/g_tv_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/btn_edit_job"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white_color"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:shadowColor="@color/BLACK"
+            android:shadowRadius="10" />
+
+        <RelativeLayout
+            android:id="@+id/detailView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible" >
+
+            <FrameLayout
+                android:id="@+id/bottom_sub"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true" >
+
+            </FrameLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

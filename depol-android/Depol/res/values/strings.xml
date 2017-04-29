@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">DEPOL</string>
+    <string name="app_id">296715183859782</string>
+    <string name="network_error"><u>Network Error!</u></string>
+    
+    <!-- 로그인 -->
+    <string name="pass_search"><u>Forgot your password?</u></string>
+    <string name="login_facebook">Login with Facebook</string>
+    <string name="logout_facebook">Logout with Facebook</string>
+    <string name="login_depol">Login with DEPOL</string>
+    <string name="sing_in_depol">Create Account</string>
+    <string name="email">이메일</string>
+    <string name="password">비밀번호</string>
+    <string name="login">로그인</string>
+    <string name="main_subText">Designer`s portfolio</string>
+    <string name="sign_in_title">로그인 하기</string>
+    <string name="sign_in">로그인</string>
+    <string name="validation_email">유효한 형태의 이메일 주소가 아닙니다.</string>
+    <string name="password_validation">비밀번호가 일치하지 않습니다.</string>
+    <string name="id_invalid">아이디가 존재하지 않습니다.</string>
+    
+    <!-- 회원가입 -->
+    <string name="user_name">사용자 이름</string>
+    <string name="confirm_pass">비밀번호 확인</string>
+    <string name="sign_up">회원가입</string>
+    <string name="sign_up_title">가입하기</string>
+    
+    <!-- 비밀번호 찾기 -->
+    <string name="sign_in_forget_title">비밀번호 찾기</string>
+    <string name="sign_in_forget_desc">회원가입 시 등록한 이메일을 입력하세요.\n비밀번호 재설정을 위해 인증메일을 발송합니다.</string>
+    <string name="sign_in_forget_send">인증 메일 발송</string>
+    
+    
+    <!-- 메뉴 -->
+    <string name="recruitinfo">채용정보</string>
+    <string name="message">메시지</string>
+    <string name="like">좋아요</string>
+    <string name="invitation">초대</string>
+    <string name="settings">설정</string>
+    
+    <!-- 메인 -->
+    <string name="main_best">인기순</string>
+    <string name="main_new">최신순</string>
+    <string name="main_follow">팔로잉</string>
+    
+    <!-- 메뉴 -->
+    <string name="recurit_new">최신 순</string>
+    <string name="recurit_end">마감 순</string>
+    <string name="recurit_interest">관심공고 순</string>
+    
+    <!-- 검색 -->
+    <string name="search_hint">작품명, 이름, 내용 등 검색</string>
+    <string name="search_category">카테고리</string>
+    
+    <!-- 설정 -->
+    <string name="setting_notice">공지사항</string>
+    <string name="setting_account">계정관리</string>
+    <string name="setting_version">버전</string>
+    <string name="logout">로그아웃</string>
+    <string name="push_alert">푸시알림</string>
+    
+    
+    <!-- 프로필 -->
+    <string name="message_eng">메세지</string>
+    <string name="profile">프로필</string>
+    <string name="follower">팔로워</string>
+    <string name="basic_type">기본 정보</string>
+    <string name="basic_name">이름</string>
+    <string name="basic_job">직종 (희망분야)</string>
+    <string name="basic_address">거주지</string>
+    <string name="basic_birthday">생년월일</string>
+    <string name="basic_email">메일</string>
+    <string name="basic_website">웹 사이트</string>
+    <string name="academic_type">학력 사항</string>
+    <string name="career_type">경력 사항</string>
+    <string name="certification_type">자격증</string>
+    <string name="aword_type">수상경력</string>
+    <string name="infographics_type">보유능력</string>
+    <string name="info_add">+ 추가하기</string>
+    <string name="start_date">시작일</string>
+    <string name="end_date">종료일</string>
+    <string name="verify">확인</string>
+    <string name="cancell">취소</string>
+    <string name="save">저장</string>
+    <string name="content">내용</string>
+    <string name="write">포트폴리오 올리기</string>
+    <string name="write_modify">포트폴리오 수정</string>
+    <string name="ok_kor">완료</string>
+    <string name="ok">완료</string>
+    <string name="photo">사진</string>
+    <string name="category">카테고리</string>
+    
+    <!-- 다이얼로그 -->
+    <string name="academic_add">학력 추가</string>
+    <string name="academic_modify">학력 수정</string>
+    <string name="academic_school">학교</string>
+    <string name="academic_major">전공</string>
+    <string name="academic_startdate">입학</string>
+    <string name="academic_enddate">졸업</string>
+    <string name="academic_date_hint">YYYY.MM</string>
+    
+    <string name="career_add">경력 추가</string>
+    <string name="career_modify">경력 수정</string>
+    <string name="career_job">직장</string>
+    <string name="career_position">직위</string>
+    <string name="career_startdate">시작</string>
+    <string name="career_enddate">종료</string>
+    
+    <string name="award_add">수상경력 추가</string>
+    <string name="award_modify">수상경력 수정</string>
+    <string name="award_engine">수상기관</string>
+    <string name="award_content">수상내역</string>
+    <string name="award_date">수상연도</string>
+    <string name="award_date_hint">YYYY</string>
+    
+    <string name="certification_add">자격증 추가</string>
+    <string name="certification_modify">자격증 수정</string>
+    
+    <!-- 프로필 수정 -->
+    <string name="basic_info">기본 정보</string>
+    <string name="job_info">구직 정보</string>
+    <string name="account_info">계정 정보</string>
+    
+    <!-- 프로필 수정 -->
+    <string name="job_normal">일반</string>
+    <string name="job_hunter">구직자</string>
+    <string name="job_free">프리랜서</string>
+    <string name="job_parttime">아르바이트</string>
+    
+    <!-- 멀티 이미지선택 -->
+    <string name="image_max_count">개 이하만 선택해주세요! (최대)</string>
+    <string name="image_current_count">개 추가 가능!</string>
+    
+    
+    <!-- 메인 -->
+    <string name="message_inbox">받은 메세지</string>
+    <string name="message_sent">보낸 메세지</string>
+    
+    <!-- 초대하기 -->
+    <string name="invitation_desc">친구들을 초대하고, 친구들과 함께 작품을\n구경하고 작품에 대해 얘기해보세요.\nDEPOL은 친구들과 함께하면 더욱 즐겁습니다.</string>
+    <string name="invitation_facebook">Facebook 친구 초대</string>
+    <string name="invitation_kakaotalk">Kakaotalk 친구 초대</string>   
+    
+    <!-- 계정관리 -->
+    <string name="account_email">계정 이메일 변경</string>
+    <string name="account_pass">비밀번호 변경</string>
+    <string name="account_other_account">외부계정</string>
+    <string name="account_facebook">페이스북과 연결하기</string>
+    <string name="account_facebook_acceept">페이스북 계정에 연결되었습니다.</string>
+    
+    <!-- 버전 -->
+    <string name="version">버전</string>
+    <string name="version_current">현재 버전</string>
+    <string name="version_new">최신 버전</string>
+    <string name="version_update">업데이트 하러 가기</string>
+    <string name="version_desc">이용 약관 및 개인정보 방침</string>
+    
+    <!-- 글쓰기 -->
+    <string name="write_title">제목을 입력해주세요.</string>
+    <string name="write_desc">내용을 입력해주세요.</string>
+    
+    <!-- 서버 -->
+    <string name="infographics_add">보유능력 추가</string>
+    <string name="infographics_str">보유기술을 기입해주세요!</string>
+    
+    <!-- 메세지 -->
+    <string name="message_send">메세지 작성하기</string>
+    <string name="message_to">TO:</string>
+    <string name="message_recevie">받은 메시지</string>
+    <string name="message_post">보낸 메시지</string>
+    <string name="message_send_success">메세지 전송 성공!</string>
+    <string name="message_send_fail">메세지 전송 실패!</string>
+    <string name="is_follow">팔로우!</string>
+    <string name="is_unfollow">팔로우 해제!</string>      
+    
+    <string name="like_user_type1">명이 좋아합니다.</string> 
+    <string name="like_user_type2">님이 회원님의 사진을 좋아합니다.</string> 
+    
+    <!-- 검색 -->
+    <string name="search_null">키워드 입력 혹은 카테고리를 선택해주세요.</string> 
+    <string name="search_result">에 대한 검색 결과</string> 
+    <string name="search_keywordnull">카테고리에 의한 검색 결과</string> 
+    
+    <string name="profile_edit_name">본인의 이름을 입력해주세요.</string> 
+    <string name="profile_edit_job">본인의 직업을 입력해주세요.</string> 
+    <string name="profile_edit_email">새로운 이메일 주소를 입력해주세요.</string> 
+    <string name="profile_edit">프로필 편집</string> 
+    <string name="profile_edit_email_modify">계정 이메일 변경</string> 
+    <string name="profile_edit_name_null">이름을 입력해주세요.</string> 
+    <string name="profile_edit_job_null">직업을 입력해주세요.</string> 
+    <string name="profile_edit_email_null">이메일을 입력해주세요.</string> 
+    
+    <string name="old_password">기존 비밀번호</string>
+    <string name="new_password">새로운 비밀번호</string>
+    <string name="password_modify">기존/변경후 비밀번호를 입력해주세요.</string>
+    <string name="password_fail">이전 비밀번호가 잘못되었습니다.</string>
+    <string name="old_password_null">이전 비밀번호를 입력해주세요!</string>
+    <string name="new_password_null">변경할 비밀번호를 입력해주세요!</string>
+    <string name="password_modigy_request">비밀번호 변경</string>
+    <string name="password_modigy_fail">비밀번호 변경 실패</string>
+    <string name="password_modigy_success">비밀번호 변경 성공!</string>
+    <string name="depol_share">[디자이너를 위한 포트폴리오 관리 앱 DEPOL] 추천 포트폴리오 이미지</string>
+</resources>

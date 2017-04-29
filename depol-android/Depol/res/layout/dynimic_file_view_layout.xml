@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viwer_contnt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="3dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/main_imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+        
+        <ImageView
+            android:id="@+id/btn_message_follow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/port_th_del" />
+
+        <ImageView
+            android:id="@+id/imageView_first"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/port_th_first"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</FrameLayout>

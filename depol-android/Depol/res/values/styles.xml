@@ -1,0 +1,49 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+            <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+     
+      <style name="ListBackContent">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/abs__action_bar_subtitle_text_size</item>
+        <item name="android:background">@drawable/abs__ab_bottom_solid_dark_holo</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ListFrontContent">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/padding_left</item>
+        <item name="android:background">@color/RED</item>
+        <item name="android:padding">@dimen/padding_left</item>
+    </style>
+    
+    <style name="FacebookLoginButton">
+    <item name="android:background">@drawable/facebook</item>
+	</style>
+	
+    <style name="FacebookShare">
+    <item name="android:background">@drawable/detile_facebook1</item>
+	</style>
+	
+	<style name="FacebookLoginAccButton">
+    <item name="android:background">@drawable/account_facebook_non</item>
+    <item name="android:layout_gravity">center_horizontal</item>
+	</style>
+	
+</resources>

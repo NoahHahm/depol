@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category">
+        <item>전체 선택</item>
+		<item>가구디자인</item>
+		<item>거리미술</item>
+		<item>건축</item>
+		<item>공간디자인</item>
+		<item>공예</item> 
+		<item>광고</item>
+		<item>그래픽디자인</item>
+		<item>드로잉</item>
+		<item>미디어아트</item>
+		<item>브랜딩</item>
+		<item>산업디자인</item>
+		<item>섬유디자인</item>
+		<item>순수미술</item>
+		<item>아트디렉션</item>
+		<item>애니메이션</item>
+		<item>웹디자인</item>
+		<item>인터렉션</item>
+		<item>인테리어</item>
+		<item>일러스트레이션</item> 
+		<item>제품디자인</item>
+		<item>캐릭터디자인</item>
+		<item>타이포그래피</item>
+		<item>패션</item> 
+		<item>패키지</item>
+		<item>편집디자인</item>
+		<item>포토그래피</item>
+		<item>푸드스타일링</item> 
+		<item>환경디자인</item>
+		<item>CI/BI</item>
+		<item>UI/UX</item>
+    </string-array>   
+        <string-array name="skill">
+		<item>포토샵</item>
+		<item>일러스트레이터</item>
+		<item>페인터</item>
+		<item>페인트샵프로</item>
+		<item>플래시</item>
+		<item>드림위버 </item>
+		<item>나모웹에디터</item>
+		<item>울트라에디트</item>
+		<item>에디트플러스</item>
+		<item>이클립스</item>
+		<item>코렐드로우</item>
+		<item>쿽익스프레스</item>
+		<item>페이지메이커</item>
+		<item>인디자인</item>
+		<item>3D 맥스</item>
+		<item>3D 마야</item>
+		<item>알리아스</item>
+		<item>웨이브프론트</item>
+		<item>라이트웨이브</item>
+		<item>시네마 4D</item>
+		<item>라이노 3D</item>
+		<item>브라이스</item>
+		<item>오토캐드</item>
+		<item>퀘스트 3D</item>
+		<item>디멘션</item>
+		<item>프리미어</item>
+		<item>베가스</item>
+		<item>에프터이펙트</item>
+		<item>디렉터</item>
+		<item>아비드익스프레스프로</item>
+		<item>아비드리퀴드</item>
+		<item>비주얼덥</item>
+    </string-array>  
+</resources>

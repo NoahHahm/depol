@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/profile_views"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background_color"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/profile_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.staggeredgridview.pulltorefresh.library.PullToRefreshStaggeredGridView
+            android:id="@+id/ptrstgv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/profile_background_color" >
+
+
+        </com.staggeredgridview.pulltorefresh.library.PullToRefreshStaggeredGridView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ProgressBar
+                android:id="@+id/loadindicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true" />
+
+        </RelativeLayout>
+
+    </FrameLayout>
+</LinearLayout>

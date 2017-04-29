@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viwer_contnt"
+    android:layout_width="83dp"
+    android:layout_height="83dp" >
+
+    <ImageView
+        android:id="@+id/photo_img"
+        android:layout_width="@dimen/photo_width"
+        android:layout_height="@dimen/photo_height"
+        android:scaleType="centerCrop"
+        android:src="@drawable/depol_launcher_la" />
+
+    <RelativeLayout
+        android:layout_width="83dp"
+        android:layout_height="83dp" >
+
+        <ImageView
+            android:id="@+id/select_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/album_non" />
+
+    </RelativeLayout>
+
+</FrameLayout>

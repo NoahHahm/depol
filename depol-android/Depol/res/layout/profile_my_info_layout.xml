@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/profile_background_color"
+    android:orientation="vertical" >
+
+    <com.tacademy.depol.profile.dynamicview.DynamicBasicView
+        android:id="@+id/dynamicBasicView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" />
+
+    <com.tacademy.depol.profile.dynamicview.DynamicAcademyView
+        android:id="@+id/dynamicAcademyView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" />
+
+    <com.tacademy.depol.profile.dynamicview.DynamicCareerView
+        android:id="@+id/dynamicCareerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" 
+        android:orientation="vertical" />
+
+    <com.tacademy.depol.profile.dynamicview.DynamicCertificationView
+        android:id="@+id/dynamicCertificationView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" />
+    
+    <com.tacademy.depol.profile.dynamicview.DynamicAwordView
+        android:id="@+id/dynamicAwordView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" />
+    
+    
+    <com.tacademy.depol.profile.dynamicview.DynamicInfographicsView
+        android:id="@+id/dynamicInfographicsView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" />
+
+</LinearLayout>

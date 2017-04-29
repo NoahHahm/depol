@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="10dp" >
+
+    <ImageView
+        android:id="@+id/menu_like_imageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/rectangle_btn" />
+
+    <TextView
+        android:id="@+id/menu_like_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_toLeftOf="@+id/menu_like_imageView"
+        android:layout_toRightOf="@+id/menu_like_userImageView"
+        android:text="asd"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/C_8F8F95"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/menu_like_timeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/menu_like_desc"
+        android:layout_below="@+id/menu_like_desc"
+        android:layout_marginTop="10dp"
+        android:text="asd"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/C_8F8F95"
+        android:textSize="8sp" />
+
+</RelativeLayout>

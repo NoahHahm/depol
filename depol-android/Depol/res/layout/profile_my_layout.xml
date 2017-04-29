@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/selectView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/profile_background_color"
+    android:orientation="vertical" >
+    
+    <com.tacademy.depol.widget.MyRoundedImageView
+        android:id="@+id/profile_imageView"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/profile_empty" />
+
+    <TextView
+        android:id="@+id/profile_jobView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_nameView"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/white_color"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/profile_nameView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white_color"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/profile_jobView"
+        android:layout_marginTop="14dp" >
+
+        <RelativeLayout
+            android:id="@+id/profile_follower"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/profile_follwerView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/A9A9A9_color"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/follow_job"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile_follwerView"
+                android:layout_centerHorizontal="true"
+                android:text="@string/follower"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/A9A9A9_color"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/profile_follow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/profile_followView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/A9A9A9_color"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/message_in_descView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile_followView"
+                android:layout_centerHorizontal="true"
+                android:text="@string/main_follow"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/A9A9A9_color"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/profile_message"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/messge_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/profile_message" />
+
+            <TextView
+                android:id="@+id/messge_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/messge_icon"
+                android:layout_centerHorizontal="true"
+                android:text="@string/message_eng"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/A9A9A9_color"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@color/profile_background_color"
+        android:orientation="vertical" >
+        
+	<!-- 여기 -->
+	
+	<android.support.v4.app.FragmentTabHost
+            android:id="@+id/p_tabhost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/main_background_color" >
+
+                </TabWidget>
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp" >
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/p_tabcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+                    
+                </FrameLayout>  
+                
+            </LinearLayout>
+        </android.support.v4.app.FragmentTabHost>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/icon_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="45dp"
+        android:layout_toRightOf="@+id/profile_imageView"
+        android:src="@drawable/profile_setting" />
+
+</RelativeLayout>

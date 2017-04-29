@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viwer_contnt"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/main_background_color" >
+
+    <FrameLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ProgressBar
+                android:id="@+id/main_loadindicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+
+        <com.staggeredgridview.pulltorefresh.library.PullToRefreshStaggeredGridView
+            android:id="@+id/main_staggered_gridview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"  
+            android:background="@color/main_background_color" >
+        </com.staggeredgridview.pulltorefresh.library.PullToRefreshStaggeredGridView>
+    </FrameLayout>
+
+</FrameLayout>

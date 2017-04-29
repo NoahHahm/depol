@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="RED">#FF0000</color>
+    <color name="white_color">#FFFFFF</color>
+    <color name="BLACK">#000000</color>
+    <color name="main_background_color">#222222</color>
+    <color name="actionbar_background_color">#34495e</color>
+    <color name="menu_background_color">#34495e</color>
+    <color name="A9A9A9_color">#A9A9A9</color>
+    <color name="profile_background_color">#2B2B2B</color>
+    <color name="C_8F8F95">#8F8F95</color>
+    <color name="cell_desc_color">#737373</color>
+    <color name="message_desc_text_color">#797979</color>
+    <color name="message_time_color">#6D839A</color>
+    <color name="sign_edittext_color">#0E0E0E</color>
+    <color name="C_4A647E">#4A647E</color>
+    <color name="message_inbox_bottom_color">#E5E5EA</color>
+    <color name="stroke_color">#343434</color>
+    <color name="search_background_color">#1A2A3B</color> 
+    <color name="search_box_color">#86909A</color>   
+    <color name="C_767F89">#767F89</color> 
+    <color name="notice_separator_color">#171717</color> 
+    <color name="stroke_color_type1">#777777</color>   
+    <color name="stroke_color_type2">#ea4c88</color>    
+    <color name="stroke_color_type3">#007aff</color>    
+    <color name="stroke_color_type4">#00aab5</color>   
+    <color name="tab_color">#E74C3C</color>        
+    <color name="C_4E4E4E">#4E4E4E</color>        
+    <color name="C_636B72">#636B72</color>        
+    <color name="C_898E91">#898E91</color>       
+    <color name="C_547698">#547698</color>     
+    <color name="C_C7C7CC">#C7C7CC</color> 
+    <color name="C_C6C6C6">#C6C6C6</color> 
+    <color name="C_547698">#547698</color> 
+    <color name="C_e5e5ea">#e5e5ea</color>
+    <color name="C_0D7AFF">#0D7AFF</color>
+    <color name="C_171717">#171717</color>
+    <color name="C_606366">#606366</color>
+    <color name="C_353535">#353535</color>
+    <color name="C_282828">#282828</color>
+    <color name="C_1f1f1f">#1f1f1f</color>
+    <color name="C_bdc3c7">#bdc3c7</color>
+    
+  
+    
+</resources>
